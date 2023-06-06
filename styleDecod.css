@@ -1,0 +1,244 @@
+body{
+	font-family: "Inter";
+	background: #F3F5FC;
+	overflow: auto;
+}
+
+/*body{position: relative;
+	width: 1440px;
+	height: 1024px;}*/
+
+header{
+	margin: 40px 84px 0;
+}	
+
+
+.logoaalura{
+	margin-left: 10px;
+	padding-top: 10px;
+	width: 2%;
+}
+
+/*.logoaalura{
+	display: inline-block;
+    margin: 1em;
+    font-size: 38px;
+    font-weight: bold;
+	color: #0A3871;
+	text-transform: uppercase;
+    text-decoration: uderline;
+}*/
+
+
+/*.title-one-decoder {
+   	color: #0A3871;
+   	position: absolute;
+	left: 36,67%;
+	right: 37,43%;
+	top: 0%;
+	bottom: 0%;
+}*/
+
+.caixa-mensagem {
+    margin: 18px 100px 50px 140px;
+}
+
+.caixa-mensagem p {
+    margin: 280px 0 10px;
+    font-size: 13px;
+    color: #495057;
+}
+
+/*#mensagem{
+	position: absolute;
+	width: 680px;
+	height: 48px;
+	left: 240px;
+	top: 168px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+	background: #F3F5FC;
+}*/
+
+#mensagem {
+    font-size: 32px;
+    border: none;
+    background: #F3F5FC;
+    margin: 0 25px;
+    padding: 25px;
+    border-radius: 15px;
+    color: #0A3871;
+    outline: 0;
+    text-transform: lowercase;
+}
+
+/*.importante{
+	width: 228px;
+	height: 18px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+	color: #495057;
+	opacity: 0.8;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}*/
+
+.criptografar{
+	display: inline-block;
+	padding: 1em 4em;
+	margin: 0 15px 0 0;
+	border: none;
+	border-radius: 24px;
+	background: #0A3871;
+	color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);	
+}
+
+.descriptografar{
+	display: inline-block;;
+	padding: 1em 4em;
+	margin: 0 15px 0 0;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	background: #D8DFE8;
+	font-size: 18px;
+    font-weight: bold;
+	cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+#imagemretangulo{
+	position: absolute;
+	width: 400px;
+	height: 944px;
+	left: 1000px;
+	top: 40px;
+	border-radius: 32px;
+	box-shadow: 0px 24px 32px 8px rgba(0, 0, 0, 0.8);
+	background: #FFFFFF;
+}
+
+
+.btn-copiar {
+    display: relative;
+    padding: 1em 4em;
+    margin: 3.4em 5.7em;
+    border: 1px solid #0A3871;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #D8DFE8;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 455px;
+    align-items: center;
+}
+
+.criptografar:hover, 
+.descriptografar:hover, 
+.btn-copiar:hover {
+    transition: 1s;
+    opacity: 0.7;
+}
+
+::-webkit-input-placeholder {
+    color:#0A3871;
+}
+
+.caixa-resultadomensagem {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin: 0 120px;
+}
+
+.input-resultadomensagem {
+    margin: 5em;
+    padding: 44px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+    background-image: url("C:/Users/aline/OneDrive/Documentos/OracleONE/challege_decodificador/imgretangulo.png");
+    background-repeat: no-repeat;
+    background-position: 25% 25%;
+    background-size: 220px;
+    outline: 0;
+}
+
+footer{
+	display: flex;
+	text-align: center;
+	margin: 0 15px 0 15px;
+	bottom: 20px;
+	right: 50px;
+}
+
+.autor {
+	font-size: 13px;
+	margin: 0 15px 0 0;
+}
+.logoautor ul{
+	display: flex;
+}
+
+.logolinkedin{
+	display: inline-block;
+	width: 30px;
+	height: 22px;
+	margin: 0 15px 0 0;
+}
+
+.logogithub{
+	display: inline-block;
+	width: 30px;
+	height: 22px;
+	margin: 0 15px 0 0;	
+}
+
+
+
+
+/* Resposividade */
+@media screen and (max-width: 980px) {
+    .caixa-resultadomensagem, .caixa-mensagem {
+        position: relative;
+        margin: 10px 10px auto;
+        width: auto;
+    }
+
+    .caixa-mensagem p {
+        margin: 280px 38px 10px;
+    }
+
+    .criptografar, .descriptografar {
+        width: 382px;
+        margin: 10px 38px 0;
+
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .caixa-resultadomensagem {
+        display: flex;
+        flex-direction: column;
+        padding: 32px;
+
+        width: auto;
+        height: 123px;
+        margin: 10px 38px 38px 0;
+    }
+}

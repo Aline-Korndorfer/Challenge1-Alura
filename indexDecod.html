@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Decodificador Alura</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="styleDecod.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	</head>	
+
+	<body>
+		<header class="body">
+			<h1><img class="logoaalura" src="logoaAlura.png"></h1>
+		</header>
+
+		<main>
+			<section class="caixa-mensagem">
+				<form>
+					<input type="text" placeholder="Digite seu texto..." id="mensagem" class="input-mensagem" value="">
+
+					<p class="importante">&#9432; Apenas letras minúsculas e sem acento.</p>
+
+					<input type="submit" value="Criptografar" class="criptografar" id="criptografar">
+					<input type="submit" value="Descriptografar" class="descriptografar" id="descriptografar">
+				</form>	
+			</section>
+
+			<section class="caixa-resultadomensagem">
+                <div class="div-copy"></div><textarea id="imgretangulo" class="input-resultadomensagem" cols="20" rows="25" readonly></textarea>
+			
+			<!-- div + input eu fiz - ver se pode ficar  
+
+				<div id="imagemretangulo">		
+					<img src="imgretangulo.png">
+				</div>	
+
+				<input type="submit" value="Copiar" class="btn-copiar">	-->
+			</section>
+
+		</main>
+
+		<footer>
+			<p class="autor">Aline Korndorfer</p>
+			<nav class="logoautor">
+				<ul>
+					<li><a href="https://www.linkedin.com/in/alinekorndorfer/"><img class="logolinkedin" src="logolinkedin.jpg"></a></li>
+					<li><a href="https://github.com/Aline-Korndorfer"><img class="logogithub" src="logoGitHub.png"></a></li>
+				</ul>
+			</nav>
+		</footer>
+
+		<script defer src="scriptDecod.js"></script>
+
+	</body>
+</html>
+		
