@@ -4,9 +4,6 @@ body{
 	overflow: auto;
 }
 
-/*body{position: relative;
-	width: 1440px;
-	height: 1024px;}*/
 
 header{
 	margin: 40px 84px 0;
@@ -19,25 +16,6 @@ header{
 	width: 2%;
 }
 
-/*.logoaalura{
-	display: inline-block;
-    margin: 1em;
-    font-size: 38px;
-    font-weight: bold;
-	color: #0A3871;
-	text-transform: uppercase;
-    text-decoration: uderline;
-}*/
-
-
-/*.title-one-decoder {
-   	color: #0A3871;
-   	position: absolute;
-	left: 36,67%;
-	right: 37,43%;
-	top: 0%;
-	bottom: 0%;
-}*/
 
 .caixa-mensagem {
     margin: 18px 100px 50px 140px;
@@ -49,19 +27,6 @@ header{
     color: #495057;
 }
 
-/*#mensagem{
-	position: absolute;
-	width: 680px;
-	height: 48px;
-	left: 240px;
-	top: 168px;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 32px;
-	line-height: 150%;
-	background: #F3F5FC;
-}*/
 
 #mensagem {
     font-size: 32px;
@@ -75,20 +40,6 @@ header{
     text-transform: lowercase;
 }
 
-/*.importante{
-	width: 228px;
-	height: 18px;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 150%;
-	color: #495057;
-	opacity: 0.8;
-	flex: none;
-	order: 1;
-	flex-grow: 0;
-}*/
 
 .criptografar{
 	display: inline-block;
