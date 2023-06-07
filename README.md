@@ -11,3 +11,9 @@ Para descriptografar a mensagem, basta clicar no botão Copiar, logo abaixo da m
 Autor do projeto é @ Aline-Korndorfer .
 
 https://aline-korndorfer.github.io/Challenge1-Alura/
+
+
+Badge
+
+![Badge1](https://github.com/Aline-Korndorfer/Challenge1-Alura/assets/130650544/b0603299-f0ca-463d-a62f-3c75d3171325)
+
